@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    height: 150vh;
+    background-size: contain;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    position: relative;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    position: relative;
+    display: block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-one
+{
+    font-size: 13px;
+}
+
+.btn-two
+{
+    font-size: 20px;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.textblock
+{
+    border: 1px solid white;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 200;
+    margin-right: auto;
+    display: block;
+    background-color: darkorange;
+    opacity: 0.9;
+}
+
+.toggle_collapse {
+    display:block; 
+}
+
+.toggle_collapse,
+.toggle_collapse + * > .collapseAfter ~ * {
+    position:absolute;
+    top:-999em;
+    left:-999em;
+}
+
+.toggle_collapse:checked + *  .collapseAfter ~ * {
+    position:static;
+}
+
+.toggle_collapse + * + label {
+    display:inline-block;
+    color:lightblue;
+}
+
+.toggle_collapse + * + label:before {
+    content:"See Details";
+}
+
+.toggle_collapse:checked + * + label:before {
+    content:"See Less";
+}
+
+.toggle_collapse + * + label:after {
+    content:"\25BC";
+    display:inline-block;
+    padding:0.4em 0 0 0.3em;
+    vertical-align:top;
+    font-size:0.625em;
+}
+
+.toggle_collapse:checked + * + label:after {
+    content:"\25B2";
+}
+
+ul {
+  padding-left: 30px;
+}

@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>James' Web Portfolio</title>
+        <link href="../style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="hero">
+                <div class="row">
+                    <ul class="main-nav">
+                        <li class="btn-one"><a href="../index.html"> Home </a></li>
+                        <li class="btn-one"><a href="about.html"> About </a></li>
+                        <li class="btn-one"><a href="JBrennanResume.pdf"> Resume </a></li>
+                        <li class="btn-one"><a href="contact.html"> Contact </a></li>
+                    </ul>
+                </div>
+                <h1>Projects</h1>
+                <p class='textblock'>
+                    Here are a selection of projects I've completed.
+                </p>
+                <ul class="textblock">
+                    <li><h2>GroupMe Analysis Bot - <a href=https://github.com/jtb117/groupme-testing-bot>GitHub</a></h2>
+                        <h3>Current Features:</h3>
+                        <input type="checkbox" id="gm"class="toggle_collapse" hidden aria-hidden="true">
+                        <ul>
+                            <li>!all - Mention all users in the chat.</li>
+                            <li class="collapseAfter">!remember {trigger}::{response} - The bot will send a message identical to response when a message identical to trigger is sent.</li>
+                            <li>!forget {trigger} - The trigger will no longer prompt response</li>
+                            <li>!triggers - Returns a list of saved triggers.</li>
+                            <li>Unrecognied command - Bot will respond "Huh?" to indicate the command is not recognized.</li>
+                        </ul>
+                        <label for="gm" hidden aria-hidden="true"></label>
+                    </li>
+                    <br>
+                    <li><h2>PGH Healthy Ride Bike Data Analysis - <a href=https://github.com/jtb117/MLHSample>GitHub</a></h2>
+                        <br>
+                        <input type="checkbox" id="bike"class="toggle_collapse" hidden aria-hidden="true">
+                        <ul>
+                            <li>Assignment was to conduct analysis of PGH Healthy Ride Bike Data</li>
+                            <li class="collapseAfter">Jupyter Notebook file and and datasets included</li>
+                            <li>Primarily focused on data cleaning/wrangling in Pandas</li>
+                            <li>For example, the rebalancing (manually moving bikes from one station to another) was not explicitly mentioned in data set and had to be calculated. </li>
+                        </ul>
+                        <label for="bike" hidden aria-hidden="true"></label>
+                    </li>
+                    <br>
+                    <li><h2>Housing Price Data Analysis and Predictions - <a href=https://github.com/jtb117/MLHSample>GitHub</a></h2>
+                        <br>
+                        <input type="checkbox" id="house"class="toggle_collapse" hidden aria-hidden="true">
+                        <ul>
+                            <li>Assignment was to predict housing prices in test set given 14 potential predictors using a training set.</li>
+                            <li class="collapseAfter">Conducted entirely in R</li>
+                            <li>Includes: data exploration, data cleaning, model comparison, and model selection</li>
+                            <li>Written technical as well as non-technical reports included</li>
+                        </ul>
+                        <label for="house" hidden aria-hidden="true"></label>
+                    </li>
+                    <br>
+                    <li><h2>Soundscape Narrative for Composing Digital Media - <a href=https://dmap.pitt.edu/showcase>Showcase</a></h2>
+                        <br>
+                        <input type="checkbox" id="sound"class="toggle_collapse" hidden aria-hidden="true">
+                        <ul>
+                            <li>An artistic represenation of time spent in quarantine during the first 6 months of the pandemic.</li>
+                            <li class="collapseAfter">Completed for a Componsing Digital Media course</li>
+                            <li>Featured in a Digital Media Showcase at Pitt</li>
+                        </ul>
+                        <label for="sound" hidden aria-hidden="true"></label>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </body>
+</html>
